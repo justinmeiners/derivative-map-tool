@@ -21,6 +21,16 @@ See [Rory][1], [Whigham][4], [Mikkelsen 1][2]
 and [Mikkelsen 2][3].
 [Blender][5] was also a helpful reference.
 
+## Compression
+
+If you are planning to use DXT compression, I recommend following general guidelines 
+as those for normal maps.
+DXT 1 typically is very poor, especially if you want
+to pack another map in the other channel you will get cross channel compression.
+I got good results using DXT 5 with roughness in alpha,
+derivative in red and green, and leaving the blue empty.
+See [Waveren (PDF)][7] for an in-depth discussion.
+
 
 ## LICENSE
 
@@ -32,6 +42,5 @@ and [Mikkelsen 2][3].
 [4]: http://johnwhigham.blogspot.com/2015/03/derivative-mapping.html
 [5]: https://developer.blender.org/rBSd917bdb095573161522194449fc22f6809e5b5b2
 [6]: https://en.wikipedia.org/wiki/Sobel_operator
-
-
+[7]: https://www.researchgate.net/publication/259000109_Real-Time_Normal_Map_DXT_Compression
 
