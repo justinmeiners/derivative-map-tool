@@ -7,8 +7,8 @@ higher quality derivatives.
 
 No dependencies required besides standard library.
 
-![heightmap][sample/heightmap.png]
-![derivative map][sample/derivative.png]
+![heightmap](sample/heightmap.png)
+![derivative map](sample/derivative.png)
 
 ## About Derivative Maps
 
