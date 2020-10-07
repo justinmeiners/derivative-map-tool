@@ -34,7 +34,8 @@ See [Waveren (PDF)][7] for an in-depth discussion.
 
 ## LICENSE
 
-[GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) - It's intended to be used as a tool in your pipeline, or as a reference to write code
+ under your own license. If it is helpful to you either way, I would appreciate a citation, although this is not required.
 
 [1]: http://www.rorydriscoll.com/2012/01/11/derivative-maps/
 [2]: http://mmikkelsen3d.blogspot.com/2011/07/derivative-maps.html
